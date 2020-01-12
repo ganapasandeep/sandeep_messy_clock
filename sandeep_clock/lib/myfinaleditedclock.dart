@@ -63,8 +63,8 @@ class _MessyClockState extends State<MessyClock> {
     setState(() {
       _now = DateTime.now();
       _timer = Timer(
-        //Duration(minutes: 1) - Duration(seconds: _now.second),
-        Duration(seconds: 5) - Duration(milliseconds: _now.millisecond),
+        Duration(minutes: 1) - Duration(seconds: _now.second),
+        //Duration(seconds: 5) - Duration(milliseconds: _now.millisecond),
         _updateTime,
       );
     });
