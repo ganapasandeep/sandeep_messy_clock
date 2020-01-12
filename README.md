@@ -1,2 +1,2 @@
-# Submission for Flutter Clock
+# Submission for Flutter Clock Competition
 
